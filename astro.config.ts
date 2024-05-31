@@ -9,7 +9,6 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  base: "yuan-blog",
   integrations: [
     tailwind({
       applyBaseStyles: false,
